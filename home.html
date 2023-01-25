@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<!-- <link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen"> -->
+
+    <title>Document</title>
+
+    <style>
+
+
+.mySlides {display:none;}
+    body{
+        background-color:rgb(255, 255, 255)
+    }
+
+        
+#banner_img{
+    width: 100%;
+    float: left;
+    height: auto;
+    background-size: 100%;
+}
+
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+</head>
+
+<body > 
+
+    <div id="banner_img" style="width:100%">
+        <img class="mySlides" src="home2.jpeg" style="width:100%">
+        <img class="mySlides" src="home3.jpeg" style="width:100%">
+        <img class="mySlides" src="home4.jpeg" style="width:100%">
+      </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 7000); // Change image every 2 seconds
+      }
+      </script>
+
+
+<div class="container-fluid">
+  <div class="banner_section_2">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 padding_0">
+            <div class="box_main">
+              <div class="internet_icon">01</div>
+              <h4 class="broadband_text">Passion</h4>
+              <p class="many_text">There are many variations of passages 
+Ipsum available, but the</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 padding_0">
+            <div class="box_main active">
+              <div class="internet_icon">02</div>
+              <h4 class="broadband_text active">Dedication</h4>
+              <p class="many_text active">There are many variations of passages 
+Ipsum available, but the</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 padding_0">
+            <div class="box_main">
+              <div class="internet_icon">03</div>
+              <h4 class="broadband_text">Hardwork</h4>
+              <p class="many_text">There are many variations of passages 
+Ipsum available, but the</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+</div>
+    <!-- about section start -->
+    <div class="about_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image_1"><img src="pg1.png"></div>
+          </div>
+          <div class="col-md-6">
+            <h1 class="welcome_text">WELCOME</h1>
+            <h1 class="live_text">Online Classroom</h1>
+            <p class="lorem_text">majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't  It is a long established f
+act that a reader will be distracted by the readable content of a page when <li></li></p>
+            <div class="online_bt_main">
+              <div class="read_bt1"><a href="contact.html">Read More</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about section end -->
+    <!-- product section start -->
+    <div class="product_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="tariffs_text">WE</h2>
+            <h1 class="choose_text">provide services</h1>
+            <p class="lorem_text1"><img src="images/right-icon.png"><span class="right_icon">BEST CARDIO PROGRAMS</span></p>
+            <p class="lorem_text1"><img src="images/right-icon.png"><span class="right_icon">TAEKWONDO CLASSES OPEN</span></p>
+            <p class="lorem_text1"><img src="images/right-icon.png"><span class="right_icon">SAUNA BATH AVAILABLE</span></p>
+            <p class="lorem_text1"><img src="images/right-icon.png"><span class="right_icon">TIME BASE EXERCISE</span></p>
+            <div class="see_more"><a href="contact.html">SEE MORE</a></div>
+          </div>
+          <div class="col-md-6">
+            <div class="image_2"><img src="pg2.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- product section end -->
+    <!-- classes section start -->
+    <div class="classes_section layout_padding">
+      <div class="container">
+        <h1 class="popular_text">Popular</h1>
+        <h1 class="classes_text">Classes At THE COMPANY</h1>
+        <div class="projects_section2">
+          <div class="container_main2">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="container_main1">
+                  <img src="pg3.jpeg" alt="Avatar" class="image" style="width:100%">
+                  <div class="middle">
+                    <div class="text">Online Class</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="container_main1">
+                  <img src="pg4.jpeg" alt="Avatar" class="image" style="width:100%">
+                  <div class="middle">
+                    <div class="text">Doubt Clearing</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="container_main1">
+                  <img src="pg6.jpeg" alt="Avatar" class="image" style="width:100%">
+                  <div class="middle">
+                    <div class="text">Assessments</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="readmore_bt">
+            <div class="read_bt2"><a href="Regist_form.html">Register Now</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- classes section end -->
+
+
+<!-- <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4" style="background-color:lavender; display: inline; padding-left: 10px;">
+        <img class="hov1" src="/Users/shreeharshpandey/Desktop/VsCODE/website 2/pg4.jpeg" alt="Alps" style="width:25%">
+            <div class="overlay">
+                <div class="text">Hello World</div>
+            </div>
+        </div>
+      <div class="col-md-4" style="background-color:lavenderblush;display: inline;padding-left: 10px;">
+        <img src="/Users/shreeharshpandey/Desktop/VsCODE/website 2/pg3.jpeg" alt="Alps" style="width:25%"></div>
+      <div class="col-md-4" style="background-color:lavender;display: inline;padding-left: 10px;">
+        <img src="/Users/shreeharshpandey/Desktop/VsCODE/website 2/pg7.png" alt="Alps" style="width:25%"></div>
+    </div>
+  </div> -->
+   
+   
+</body>
+</html>
